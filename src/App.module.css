@@ -11,3 +11,18 @@ body {
 	justify-content: center;
 	flex-direction: column;
 }
+
+.image {
+	width: 370px;
+	margin-top: 50x;
+}
+
+@media (max-width: 770px) {
+	.container {
+		margin: 0 10px;
+	}
+
+	.image {
+		width: 100%;
+	}
+}
